@@ -90,9 +90,9 @@ module.exports = {
     `gatsby-plugin-postcss`,
     `gatsby-plugin-feed`,
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: `G-VCM3Q34EHB`, // Optional Google Analytics
+        trackingIds: [`G-VCM3Q34EHB`], // Optional Google Analytics
       },
     },
     {
