@@ -16,6 +16,12 @@ module.exports = {
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
+        name: 'Virtual Machine',
+        description:
+          'A MIPS inspired virtual machine, with included assembler',
+        link: 'https://github.com/aaronlindsay879/rust-VM',
+      },
+      {
         name: 'Raytracer',
         description:
           'A raytracer written with minimal dependencies in rust',
