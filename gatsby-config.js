@@ -61,13 +61,13 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/blog`,
-        name: `blog`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     path: `${__dirname}/content/blog`,
+    //     name: `blog`,
+    //   },
+    // },
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -95,12 +95,6 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-postcss`,
     `gatsby-plugin-feed`,
-    {
-      resolve: `gatsby-plugin-google-gtag`,
-      options: {
-        trackingIds: [`G-VCM3Q34EHB`], // Optional Google Analytics
-      },
-    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
